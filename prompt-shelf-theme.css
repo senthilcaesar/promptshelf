@@ -1,0 +1,31 @@
+/*
+Prompt Shelf - Archival Precision Theme
+A sophisticated theme inspired by library science and archival systems
+*/
+
+:root {
+  /* Primary Color Palette */
+  --ps-background: #f8f6f0;        /* Cream, like aged paper */
+  --ps-surface: #ffffff;           /* Clean white for content surfaces */
+  --ps-border: #d6d2c4;            /* Subtle border, like library card edges */
+  --ps-text-primary: #2c3e50;      /* Deep indigo, authoritative yet readable */
+  --ps-text-secondary: #7f8c8d;    /* Muted gray for secondary content */
+  --ps-text-tertiary: #95a5a6;     /* Light gray for metadata and hints */
+
+  /* Accent Color */
+  --ps-accent: #d4af37;            /* Gold accent for active states and interactions */
+
+  /* Font Pairings */
+  --ps-font-display: 'Crimson Pro', Georgia, serif;     /* Display font for headings */
+  --ps-font-monospace: 'JetBrains Mono', 'Droid Sans Mono', monospace; /* Monospace for prompt content */
+  --ps-font-ui: 'Instrument Sans', system-ui, sans-serif; /* Clean sans for UI labels */
+
+  /* Additional Theme Variables */
+  --ps-shadow: 0 2px 8px rgba(44, 62, 80, 0.1);
+  --ps-radius: 4px;
+  --ps-spacing-xs: 0.25rem;
+  --ps-spacing-sm: 0.5rem;
+  --ps-spacing-md: 1rem;
+  --ps-spacing-lg: 1.5rem;
+  --ps-spacing-xl: 2rem;
+}
