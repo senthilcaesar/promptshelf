@@ -6,14 +6,14 @@ Aligned with Archival Precision visual identity standards
 */
 
 :root {
-  /* Brand Color Palette - Anthropic Guidelines */
-  --ps-background: #faf9f5;        /* Light - light backgrounds */
-  --ps-surface: #ffffff;           /* Clean white for content surfaces */
-  --ps-surface-muted: #f2efe6;
-  --ps-border: #e8e6dc;           /* Light Gray - subtle backgrounds */
-  --ps-text-primary: #141413;      /* Dark - primary text */
-  --ps-text-secondary: #b0aea5;    /* Mid Gray - secondary elements */
-  --ps-text-tertiary: #6b6a65;     /* Darker gray for metadata */
+  /* Brand Color Palette - Anthropic Guidelines - Crisp Light Mode */
+  --ps-background: #f8f7f3;
+  --ps-surface: #ffffff;
+  --ps-surface-muted: #f0eee8;
+  --ps-border: #d9d6cc;
+  --ps-text-primary: #141413;
+  --ps-text-secondary: #5a5955;
+  --ps-text-tertiary: #7a7872;
   --ps-text-inverse: #faf9f5;
 
   /* Brand Accent Colors */
@@ -39,18 +39,18 @@ Aligned with Archival Precision visual identity standards
   --ps-spacing-xl: 2rem;
   --ps-spacing-xxl: 3rem;
 
-  /* Shadows - adjusted for brand dark color */
-  --ps-shadow-sm: 0 1px 2px 0 rgba(20, 20, 19, 0.05);
-  --ps-shadow-md: 0 4px 6px -1px rgba(20, 20, 19, 0.1);
-  --ps-shadow-lg: 0 10px 15px -3px rgba(20, 20, 19, 0.1);
-  --ps-overlay: rgba(20, 20, 19, 0.66);
-  --ps-overlay-soft: rgba(20, 20, 19, 0.5);
-  --ps-modal-surface: linear-gradient(180deg, rgba(250, 249, 245, 0.96), rgba(255, 255, 255, 0.98));
-  --ps-modal-inner: linear-gradient(180deg, rgba(255, 255, 255, 0.9), rgba(250, 249, 245, 0.96));
-  --ps-modal-border: rgba(217, 119, 87, 0.18);
-  --ps-modal-shadow: 0 32px 80px rgba(20, 20, 19, 0.24);
-  --ps-inset-highlight: rgba(255, 255, 255, 0.78);
-  --ps-line-subtle: rgba(20, 20, 19, 0.08);
+  /* Shadows - sharper definition for light mode clarity */
+  --ps-shadow-sm: 0 1px 3px 0 rgba(20, 20, 19, 0.08), 0 1px 2px -1px rgba(20, 20, 19, 0.06);
+  --ps-shadow-md: 0 4px 12px -2px rgba(20, 20, 19, 0.12), 0 2px 4px -1px rgba(20, 20, 19, 0.06);
+  --ps-shadow-lg: 0 12px 24px -4px rgba(20, 20, 19, 0.15), 0 4px 8px -2px rgba(20, 20, 19, 0.08);
+  --ps-overlay: rgba(20, 20, 19, 0.72);
+  --ps-overlay-soft: rgba(20, 20, 19, 0.55);
+  --ps-modal-surface: linear-gradient(180deg, #ffffff 0%, #faf9f5 100%);
+  --ps-modal-inner: #fdfcf8;
+  --ps-modal-border: rgba(217, 119, 87, 0.35);
+  --ps-modal-shadow: 0 24px 48px -12px rgba(20, 20, 19, 0.28), 0 8px 16px -4px rgba(20, 20, 19, 0.12);
+  --ps-inset-highlight: #ffffff;
+  --ps-line-subtle: #e8e6dc;
 
   /* Borders */
   --ps-radius-sm: 2px;

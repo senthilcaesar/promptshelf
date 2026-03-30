@@ -33,7 +33,7 @@ const MainLayout = ({
 
       <main className="main-content">
         <div className="content-header">
-          <h1 className="content-title">Prompt Shelf</h1>
+          <h1 className="content-title">Shelf of Tips & Tricks</h1>
           <div className="content-header-actions">
             <div className="prompt-count">{prompts.length} prompts</div>
             <button

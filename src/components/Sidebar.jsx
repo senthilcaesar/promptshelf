@@ -1,5 +1,5 @@
 import React from 'react';
-import { Search, Menu } from 'lucide-react';
+import { Search, Menu, X } from 'lucide-react';
 
 const Sidebar = ({
   categories,
@@ -35,6 +35,15 @@ const Sidebar = ({
               value={searchTerm}
               onChange={(e) => setSearchTerm(e.target.value)}
             />
+            {searchTerm && (
+              <button
+                className="search-clear-btn"
+                onClick={() => setSearchTerm('')}
+                aria-label="Clear search"
+              >
+                <X size={14} />
+              </button>
+            )}
           </div>
 
           <ul className="category-list">
