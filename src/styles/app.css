@@ -691,18 +691,25 @@ body {
   }
 
   .sidebar-overlay {
+    display: block;
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: var(--ps-overlay-soft);
+    background-color: var(--ps-overlay-soft, rgba(0,0,0,0.5));
     z-index: 99;
   }
 
   .mobile-toggle {
-    display: block;
-    margin-bottom: var(--ps-spacing-lg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: none;
+    border: none;
+    color: var(--ps-text-primary);
+    cursor: pointer;
+    margin-right: var(--ps-spacing-xs);
   }
 
   .desktop-toggle {
@@ -740,6 +747,10 @@ body {
 
 @media (min-width: 769px) {
   .mobile-toggle {
+    display: none;
+  }
+  
+  .sidebar-overlay {
     display: none;
   }
 }

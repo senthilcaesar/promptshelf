@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Menu } from 'lucide-react';
 import Sidebar from './Sidebar';
 import PromptGrid from './PromptGrid';
 import PromptList from './PromptList';
@@ -20,6 +21,13 @@ const MainLayout = ({
 
   return (
     <div className="main-layout">
+      {!sidebarCollapsed && (
+        <div 
+          className="sidebar-overlay" 
+          onClick={() => setSidebarCollapsed(true)}
+          aria-hidden="true"
+        />
+      )}
       <Sidebar
         categories={categories}
         categoryCounts={categoryCounts}
@@ -33,7 +41,16 @@ const MainLayout = ({
 
       <main className="main-content">
         <div className="content-header">
-          <h1 className="content-title">Shelf of Tips & Tricks</h1>
+          <div style={{ display: 'flex', alignItems: 'center' }}>
+            <button 
+              className="mobile-toggle"
+              onClick={() => setSidebarCollapsed(false)}
+              aria-label="Open sidebar"
+            >
+              <Menu size={24} />
+            </button>
+            <h1 className="content-title">Shelf of Tips & Tricks</h1>
+          </div>
           <div className="content-header-actions">
             <div className="prompt-count">{prompts.length} prompts</div>
             <button

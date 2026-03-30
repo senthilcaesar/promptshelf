@@ -72,7 +72,7 @@ An appropriate icon or logo on the left (with a subtle colored background box or
 The name of the technology in a bold font.
 A brief, one-sentence description of what that technology handles in the app (e.g., 'Fast, modern, component-driven UI framework').
 Implementation: Please dynamically read the project's dependency file (like package.json) to accurately list the primary frontend framework, CSS/UI library, animation library, and any hosting/deployment pipelines currently configured. Build this using the UI components and icons already available in the project.`,
-    category: "Personal",
+    category: "Design",
     tags: ["tech stack", "dependencies", "deployment"]
   },
   {
@@ -210,6 +210,13 @@ Skip anything straightforward — I want you to push on the decisions that have 
 Once you feel we've covered the important ground, do a quick summary of what we've agreed on and flag anything still unresolved. Then write a full product spec to SPEC.md with these sections: Overview, Target Users, Core Features, Technical Approach, Open Questions.`,
     category: "Coding",
     tags: ["spec", "interview", "ui/ux", "technical implementation"]
+  },
+  {
+    id: 11,
+    title: "Email Validator",
+    content: "Implement a function in Python that validates email addresses. Write a validateEmail function. example test cases: user@example.com is true, invalid is false, user@.com is false. Run the tests after implementing it",
+    category: "Coding",
+    tags: ["python", "regex", "validation", "testing"]
   }
 ];
 
