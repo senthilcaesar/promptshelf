@@ -450,6 +450,7 @@ body {
 .prompt-list-item:hover {
   border-color: var(--ps-accent-primary);
   box-shadow: var(--ps-shadow-sm);
+  transform: translateX(4px);
 }
 
 .prompt-list-item:focus-visible {
