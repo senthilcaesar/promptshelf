@@ -236,7 +236,7 @@ function App() {
   const [viewMode, setViewMode] = useState('grid'); // 'grid' or 'list'
   const [theme, setTheme] = useState(() => {
     const savedTheme = window.localStorage.getItem('prompt-shelf-theme');
-    return savedTheme === 'dark' ? 'dark' : 'light';
+    return savedTheme || 'dark';
   });
 
   useEffect(() => {
