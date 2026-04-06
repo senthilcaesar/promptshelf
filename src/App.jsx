@@ -6,28 +6,31 @@ import './styles/app.css';
 const initialPrompts = [
   {
     id: 1,
-    title: "Dark Mode Toggle",
-    content: "I have built a web app. I like the design but I think it would greatly benefit from a dark mode toggle. Can you please add one to the top right corner of the app? In the light mode I want to use the sun emoji and in the dark mode I want to use the moon emoji. The app will auto update as you make changes.",
-    category: "Design",
-    tags: ["design", "dark mode", "toggle"]
+    title: 'Dark Mode Toggle',
+    content:
+      'I have built a web app. I like the design but I think it would greatly benefit from a dark mode toggle. Can you please add one to the top right corner of the app? In the light mode I want to use the sun emoji and in the dark mode I want to use the moon emoji. The app will auto update as you make changes.',
+    category: 'Design',
+    tags: ['design', 'dark mode', 'toggle'],
   },
   {
     id: 2,
-    title: "GitHub Pages Deployment",
-    content: "I have a React app that builds to the dist folder. I want to deploy it on GitHub Pages using GitHub Actions. What additional files (workflow files, configuration, etc.) are required to enable automatic deployment?",
-    category: "Coding",
-    tags: ["react", "github pages", "github actions"]
+    title: 'GitHub Pages Deployment',
+    content:
+      'I have a React app that builds to the dist folder. I want to deploy it on GitHub Pages using GitHub Actions. What additional files (workflow files, configuration, etc.) are required to enable automatic deployment?',
+    category: 'Coding',
+    tags: ['react', 'github pages', 'github actions'],
   },
   {
     id: 3,
-    title: "English Improvement",
-    content: "Please take my English sentences or speech and rewrite them to sound natural and conversational, like a native speaker. Keep the sentences simple and concise avoid long, complicated clauses while preserving my original meaning and tone. If there are multiple good ways to say something, provide two or three alternatives. Briefly explain any key changes or idiomatic choices.",
-    category: "Personal",
-    tags: ["english", "improvement", "native speaker"]
+    title: 'English Improvement',
+    content:
+      'Please take my English sentences or speech and rewrite them to sound natural and conversational, like a native speaker. Keep the sentences simple and concise avoid long, complicated clauses while preserving my original meaning and tone. If there are multiple good ways to say something, provide two or three alternatives. Briefly explain any key changes or idiomatic choices.',
+    category: 'Personal',
+    tags: ['english', 'improvement', 'native speaker'],
   },
   {
     id: 4,
-    title: "Market Researcher",
+    title: 'Market Researcher',
     content: `You are a senior market research analyst specializing in the Computer Science and AI industry. Produce a structured research report covering the following areas:
 1. Industry landscape
 Summarize the current state of the software development and AI tooling market. Include notable shifts in investment, key players, and any market consolidation or disruption worth flagging.
@@ -38,19 +41,20 @@ How are mid-to-large businesses integrating AI into their workflows? Where is ad
 4. Career positioning in an AI-transformed job market
 What skills, roles, and strategies are most valuable for software engineers and technical professionals navigating this shift? Be specific about what is declining in demand and what is rising.
 Format the output with clear section headers and bullet points where appropriate. Flag any areas where the data is uncertain or rapidly evolving.`,
-    category: "Research",
-    tags: ["market research", "ai", "software development"]
+    category: 'Research',
+    tags: ['market research', 'ai', 'software development'],
   },
   {
     id: 5,
-    title: "Learn TypeScript",
-    content: "Act as a senior software developer. Show me how to write a simple TypeScript program that takes a list of numbers and returns the average. Please explain each part of the code and take it step by step, as I’m a college freshman student in an introductory programming course. In addition, explicitly explain how to handle potential errors and edge cases like an empty list or the input is null.",
-    category: "Coding",
-    tags: ["typescript", "programming", "beginner"]
+    title: 'Learn TypeScript',
+    content:
+      'Act as a senior software developer. Show me how to write a simple TypeScript program that takes a list of numbers and returns the average. Please explain each part of the code and take it step by step, as I’m a college freshman student in an introductory programming course. In addition, explicitly explain how to handle potential errors and edge cases like an empty list or the input is null.',
+    category: 'Coding',
+    tags: ['typescript', 'programming', 'beginner'],
   },
   {
     id: 6,
-    title: "Tech Stack",
+    title: 'Tech Stack',
     content: `Please add a 'Tech Stack' button to the main Header/Navigation component of this project.
 
 Requirements:
@@ -72,24 +76,24 @@ An appropriate icon or logo on the left (with a subtle colored background box or
 The name of the technology in a bold font.
 A brief, one-sentence description of what that technology handles in the app (e.g., 'Fast, modern, component-driven UI framework').
 Implementation: Please dynamically read the project's dependency file (like package.json) to accurately list the primary frontend framework, CSS/UI library, animation library, and any hosting/deployment pipelines currently configured. Build this using the UI components and icons already available in the project.`,
-    category: "Design",
-    tags: ["tech stack", "dependencies", "deployment"]
+    category: 'Design',
+    tags: ['tech stack', 'dependencies', 'deployment'],
   },
   {
     id: 7,
-    title: "AI Photography Scenarios",
+    title: 'AI Photography Scenarios',
     content: `Reference the attached picture and generate photo based on the following scenarios
 1) Teaching in front of a whiteboard with AI diagram 
 2) Working on a laptop in a coffee shop
 3) Leading a workshop with students in the background
 4) Recording a video tutorial at his desk
 Keep his facial features and overall appearance identical across all 4 images`,
-    category: "Design",
-    tags: ["photography", "scenarios", "image generation"]
+    category: 'Design',
+    tags: ['photography', 'scenarios', 'image generation'],
   },
   {
     id: 8,
-    title: "Prompt Formatter Instructions",
+    title: 'Prompt Formatter Instructions',
     content: `## Instructions
 
 You are a prompt formatter. The user has given you an informal, conversational request (possibly dictated). Your job is to produce a clean, well-structured prompt they can use anywhere — Claude Code, Claude.ai, ChatGPT, or other tools.
@@ -124,12 +128,12 @@ You are a prompt formatter. The user has given you an informal, conversational r
 - Light depth is the default — most requests should pass through with formatting only.
 - For one-off prompts, skip the version header and eval cases.
 - Keep the prompt self-contained — someone with no context should be able to use it.`,
-    category: "Research",
-    tags: ["prompt", "formatting", "instructions", "standardization"]
+    category: 'Research',
+    tags: ['prompt', 'formatting', 'instructions', 'standardization'],
   },
   {
     id: 9,
-    title: "Prompt Engineering Assistant",
+    title: 'Prompt Engineering Assistant',
     content: `# Prompt Engineering Assistant — Project Instructions
 
 ## Purpose
@@ -191,12 +195,12 @@ Only include if you proceeded without asking a clarifying question.
 - Data is clearly separated from instructions
 - Any defaults are documented as assumptions
 - Prompt is copy-pasteable and does not depend on hidden context`,
-    category: "Research",
-    tags: ["prompt engineering", "assistant", "instructions", "restructuring"]
+    category: 'Research',
+    tags: ['prompt engineering', 'assistant', 'instructions', 'restructuring'],
   },
   {
     id: 10,
-    title: "AI Coding Teacher Interview",
+    title: 'AI Coding Teacher Interview',
     content: `I want to build a website for teaching people how to code using AI tools and AI coding assistants. I have a rough idea but haven't made any firm decisions yet.
 Interview me using the question tool to help me think through the hard parts of building this. Focus on:
 
@@ -208,16 +212,25 @@ Anything I might be assuming that could turn out to be wrong
 
 Skip anything straightforward — I want you to push on the decisions that have real tradeoffs or that people commonly get wrong. Ask one or two questions at a time so it feels like a conversation, not a form.
 Once you feel we've covered the important ground, do a quick summary of what we've agreed on and flag anything still unresolved. Then write a full product spec to SPEC.md with these sections: Overview, Target Users, Core Features, Technical Approach, Open Questions.`,
-    category: "Coding",
-    tags: ["spec", "interview", "ui/ux", "technical implementation"]
+    category: 'Coding',
+    tags: ['spec', 'interview', 'ui/ux', 'technical implementation'],
   },
   {
     id: 11,
-    title: "Email Validator",
-    content: "Implement a function in Python that validates email addresses. Write a validateEmail function. example test cases: user@example.com is true, invalid is false, user@.com is false. Run the tests after implementing it",
-    category: "Coding",
-    tags: ["python", "regex", "validation", "testing"]
-  }
+    title: 'Email Validator',
+    content:
+      'Implement a function in Python that validates email addresses. Write a validateEmail function. example test cases: user@example.com is true, invalid is false, user@.com is false. Run the tests after implementing it',
+    category: 'Coding',
+    tags: ['python', 'regex', 'validation', 'testing'],
+  },
+  {
+    id: 12,
+    title: 'Claude Brand Guidelines',
+    content:
+      "Restyle this web app's landing page to match Anthropic's visual identity. Use Anthropic's official brand guidelines colors, typography, and spacing. Preserve all existing functionality and layout structure — only change the visual styling.",
+    category: 'Coding',
+    tags: ['claude', 'UI', 'branding', 'skill'],
+  },
 ];
 
 const categories = [
@@ -226,7 +239,7 @@ const categories = [
   { id: 'research', name: 'Research', icon: '🔍' },
   { id: 'design', name: 'Design', icon: '🎨' },
   { id: 'career', name: 'Career', icon: '💼' },
-  { id: 'personal', name: 'Personal', icon: '👤' }
+  { id: 'personal', name: 'Personal', icon: '👤' },
 ];
 
 function App() {
@@ -246,13 +259,17 @@ function App() {
 
   // Filter prompts based on search term and category
   const filteredPrompts = useMemo(() => {
-    return prompts.filter(prompt => {
-      const matchesSearch = searchTerm === '' ||
+    return prompts.filter((prompt) => {
+      const matchesSearch =
+        searchTerm === '' ||
         prompt.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
         prompt.content.toLowerCase().includes(searchTerm.toLowerCase()) ||
-        prompt.tags.some(tag => tag.toLowerCase().includes(searchTerm.toLowerCase()));
+        prompt.tags.some((tag) =>
+          tag.toLowerCase().includes(searchTerm.toLowerCase()),
+        );
 
-      const matchesCategory = selectedCategory === 'all' ||
+      const matchesCategory =
+        selectedCategory === 'all' ||
         prompt.category.toLowerCase() === selectedCategory;
 
       return matchesSearch && matchesCategory;
@@ -262,7 +279,7 @@ function App() {
   // Get prompt counts by category
   const categoryCounts = useMemo(() => {
     const counts = {};
-    prompts.forEach(prompt => {
+    prompts.forEach((prompt) => {
       const category = prompt.category.toLowerCase();
       counts[category] = (counts[category] || 0) + 1;
     });
