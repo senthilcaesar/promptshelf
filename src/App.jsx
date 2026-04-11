@@ -231,6 +231,14 @@ Once you feel we've covered the important ground, do a quick summary of what we'
     category: 'Coding',
     tags: ['claude', 'UI', 'branding', 'skill'],
   },
+  {
+    id: 13,
+    title: 'Supadata Transcript Summary',
+    content:
+      'Use the Supadata MCP server to pull the transcript for this YouTube video: [URL]. Then write a detailed summary of the main points discussed, organized as bullet points grouped by topic. Include key takeaways at the end.',
+    category: 'Coding',
+    tags: ['Supadata', 'AI', 'transcript', 'summary', 'skill'],
+  },
 ];
 
 const categories = [
