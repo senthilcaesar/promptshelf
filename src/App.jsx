@@ -239,6 +239,14 @@ Once you feel we've covered the important ground, do a quick summary of what we'
     category: 'Coding',
     tags: ['Supadata', 'AI', 'transcript', 'summary', 'skill'],
   },
+  {
+    id: 14,
+    title: 'Blog Post Formatter',
+    content:
+      'Please format the following attached content as a blog post. Preserve the original wording exactly — do not rewrite, paraphrase, or add new sentences. You may add a title, section headings, and light formatting (bold, line breaks) to improve readability, but the body text must remain unchanged.',
+    category: 'Coding',
+    tags: ['Writing', 'AI', 'blogpost', 'formatting', 'skill'],
+  },
 ];
 
 const categories = [
