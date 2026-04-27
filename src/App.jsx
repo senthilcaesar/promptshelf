@@ -247,6 +247,34 @@ Once you feel we've covered the important ground, do a quick summary of what we'
     category: 'Coding',
     tags: ['Writing', 'AI', 'blogpost', 'formatting', 'skill'],
   },
+  {
+    id: 15,
+    title: 'Modern AI Engineering Stack',
+    content: `Please research and recommend current industry best practices for building a modern production-grade AI system.
+
+Provide concise recommendations for each area:
+
+- Frontend
+- Backend
+- AI orchestration
+- LLMs
+- Vector DB
+- Infrastructure
+- Monitoring
+- Evaluation
+- Observability
+
+For each category, include:
+1. Recommended tools/frameworks (current market standard)
+2. Why they are commonly chosen
+3. Best option for startups / mid-size teams
+4. Best option for enterprise scale
+5. Suggested reference architecture for 2026
+
+Please prioritise practical, widely adopted solutions over hype.`,
+    category: 'Research',
+    tags: ['ai', 'architecture', 'best practices', 'infrastructure'],
+  },
 ];
 
 const categories = [
