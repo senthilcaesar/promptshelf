@@ -275,6 +275,14 @@ Please prioritise practical, widely adopted solutions over hype.`,
     category: 'Research',
     tags: ['ai', 'architecture', 'best practices', 'infrastructure'],
   },
+  {
+    id: 16,
+    title: 'Catppuccin Frappé',
+    content:
+      'Apply the Catppuccin Frappé dark theme to this UI. Refer to the official color palette at https://catppuccin.com/palette/ for all hex values - do not approximate or substitute colors.',
+    category: 'design',
+    tags: ['design', 'catppuccin', 'theme', 'frappe'],
+  },
 ];
 
 const categories = [
