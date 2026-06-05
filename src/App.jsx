@@ -283,6 +283,93 @@ Please prioritise practical, widely adopted solutions over hype.`,
     category: 'design',
     tags: ['design', 'catppuccin', 'theme', 'frappe'],
   },
+  {
+    id: 17,
+    title: 'Contextual Knowledge',
+    content: `I would like to evolve the current project into a knowledge-driven testing platform where all historical execution data becomes reusable context for future AI agents.
+
+Can you please recommend an architecture that allows agents to store, retrieve, reason over, and reuse knowledge from previous test runs?
+
+The system should support storing and analyzing:
+
+- Test run metadata
+- Generated test specifications
+- Crawl results
+- Planner outputs
+- Generated tests
+- Screenshots
+- Execution logs
+- Healing/fix history
+- Validation reports
+- Test coverage information
+- User feedback and approvals
+- Final test artifacts
+
+The goal is for future agents to:
+
+- Load historical context during URL exploration
+- Analyze previous test runs before generating new tests
+- Detect existing test coverage
+- Reuse existing modules and patterns
+- Merge new tests intelligently into existing suites
+- Avoid duplicate test generation
+- Learn from healed/fixed tests
+- Identify successful testing strategies
+- Build progressively richer knowledge over time
+
+Please evaluate and compare architectures such as:
+
+- RAG (Retrieval-Augmented Generation)
+- Agent Memory Systems
+- LLM Wiki / Knowledge Base approaches
+- Vector Databases
+- Knowledge Graphs (Neo4j)
+- Hybrid Memory Architectures
+- Long-term vs Short-term Agent Memory
+- Event-Sourced Architectures
+- Knowledge Layer + Execution Layer separation
+
+For each approach explain:
+- Pros
+- Cons
+- Scalability
+- Complexity
+- Retrieval quality
+- Agent reasoning capabilities
+- Operational overhead
+
+Please recommend:
+
+- The best-fit architecture for our existing project
+- A phased implementation roadmap
+- Data model/schema recommendations
+- Storage architecture
+- Indexing strategy
+- Retrieval strategy
+- Agent memory strategy
+- Knowledge ingestion workflows
+- Knowledge update workflows
+- Context assembly workflows
+- How planner/generator/healer agents would consume knowledge
+- How new execution data becomes part of the knowledge system
+
+Please also propose:
+- Folder structure
+- Service architecture
+- Knowledge APIs
+- Memory management patterns
+- Observability and governance considerations
+
+The recommendation should prioritize:
+- Seamless integration into the existing project
+- Incremental adoption
+- Reusability of historical testing knowledge
+- Strong agent reasoning capabilities
+- Long-term maintainability
+- Support for future multi-agent workflows`,
+    category: 'Research',
+    tags: ['context', 'architecture', 'agent memory', 'rag', 'knowledge graph'],
+  },
 ];
 
 const categories = [
