@@ -370,6 +370,14 @@ The recommendation should prioritize:
     category: 'Research',
     tags: ['context', 'architecture', 'agent memory', 'rag', 'knowledge graph'],
   },
+  {
+    id: 18,
+    title: 'Langfuse Tracing',
+    content:
+      'Install the Langfuse AI skill from github.com/langfuse/skills and use it to add tracing to this application with Langfuse following best practices.',
+    category: 'Coding',
+    tags: ['langfuse', 'tracing', 'integration', 'observability'],
+  },
 ];
 
 const categories = [
