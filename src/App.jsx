@@ -378,6 +378,57 @@ The recommendation should prioritize:
     category: 'Coding',
     tags: ['langfuse', 'tracing', 'integration', 'observability'],
   },
+  {
+    id: 19,
+    title: 'Firebase Setup with MCP',
+    content: `Using the Firebase MCP server, set up Firebase Firestore and Google Authentication for my project. Please perform the following steps:
+
+Initialize/Switch Project: Update the Firebase MCP environment to point to my local project directory and set the active Firebase project ID.
+
+Create Database: Use the firestore_create_database tool to provision the default Firestore database. (If it fails due to GCP billing restrictions, instruct me to create it manually).
+
+Register Web App: Register a Web App for the web platform and retrieve its SDK config credentials.
+
+Configure Services: Use firebase_init to enable Google Sign-In and Cloud Firestore, generating/updating the local configurations.
+
+Deploy Rules: Write secure Firestore rules (partitioning data under user-isolated subcollections, e.g. /users/{userId}/items/{itemId}) and deploy the rules and auth configs using firebase_deploy.
+
+Domain Authorization: Advise me to add localhost to the Firebase console's Authorized Domains list.`,
+    category: 'Coding',
+    tags: ['firebase', 'firestore', 'auth', 'mcp', 'setup'],
+  },
+  {
+    id: 20,
+    title: 'Typewriter-Terminal Aesthetic Spec',
+    content: `Technology Stack:
+
+Core Framework & Build Tool: React (using Vite)
+Styling: Vanilla CSS utilizing CSS Variables for theme switching.
+Backend & Database: Firebase Client SDK (Google Authentication, Cloud Firestore database real-time sync).
+Animations: Framer Motion (for modal animations and smooth grid-to-list layout transitions).
+Icons: Lucide React.
+Deployment Pipeline: GitHub Actions deploying automatically to GitHub Pages.
+
+Create a single-page React application with a premium **industrial typewriter-terminal aesthetic**. Implement the following design system and components:
+
+1. Theme & Typography:
+   - Background: Ruled ledger notebook grid line repeating pattern.
+   - Dark Theme (Default): Catppuccin Frappé palette (charcoal base, mauve accent, peach/green indicators).
+   - Light Theme: Retro Cream Paper background (\`#ebe7da\`), terracotta red accent (\`#a93c30\`), matte olive indicators.
+   - Fonts: Elegant Lora (serif) for headers, JetBrains Mono (monospace) for controls and metadata.
+
+2. Core Layout & Navigation:
+   - Navbar: Compact unified header containing theme toggles, status pills, and a "Tech Stack" action button.
+   - Filter Panel: Terminal-style search prompt (\`$ SEARCH_QUERY:\`) with category buttons and a Grid/List view toggle.
+   - Fluid Grid/List Cards: Industrial-style outline cards representing items. Enable smooth layout transitions (e.g., using Framer Motion \`layout\`) when toggling between Grid and List views.
+
+3. Modals & Interactivity:
+   - Form Modals: Backdrop-blurred modal with clean inputs (no placeholders) and wide action buttons (\`CANCEL\` vs. primary accent button).
+   - Tech Stack Modal: Dynamically imports \`package.json\` to display dependencies alongside custom descriptions and colored icon boxes on the left.
+   - Delete Workflow: A modal pop-up confirmation for deletions, paired with a temporary toast that features an interactive "UNDO" action.`,
+    category: 'Coding',
+    tags: ['react', 'design', 'catppuccin', 'typewriter', 'aesthetic'],
+  },
 ];
 
 const categories = [
