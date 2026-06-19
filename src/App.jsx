@@ -399,7 +399,7 @@ Domain Authorization: Advise me to add localhost to the Firebase console's Autho
   },
   {
     id: 20,
-    title: 'Typewriter-Terminal Aesthetic Spec',
+    title: 'Project Spec',
     content: `Technology Stack:
 
 Core Framework & Build Tool: React (using Vite)
@@ -409,7 +409,7 @@ Animations: Framer Motion (for modal animations and smooth grid-to-list layout t
 Icons: Lucide React.
 Deployment Pipeline: GitHub Actions deploying automatically to GitHub Pages.
 
-Create a single-page React application with a premium **industrial typewriter-terminal aesthetic**. Implement the following design system and components:
+Create a single-page React application with a premium industrial typewriter-terminal aesthetic. Implement the following design system and components:
 
 1. Theme & Typography:
    - Background: Ruled ledger notebook grid line repeating pattern.
