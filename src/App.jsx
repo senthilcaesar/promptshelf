@@ -429,6 +429,21 @@ Create a single-page React application with a premium industrial typewriter-term
     category: 'Coding',
     tags: ['react', 'design', 'catppuccin', 'typewriter', 'aesthetic'],
   },
+  {
+    id: 21,
+    title: 'Chrome Extension Side Panel',
+    content: `Build a Chrome Extension side panel companion for this React application based on the reference extension found at [PATH_TO_REFERENCE_EXTENSION].
+
+Requirements:
+1. Create a Manifest V3 extension in an \`extension/\` folder with \`manifest.json\`, \`background.js\` (opening panel on click), and a \`popup.html\`/\`popup.js\` loader.
+2. The loader must iframe this web app and append parameters: \`?source=extension&layout=sidepanel&add_url=[CURRENT_TAB_URL]&add_title=[CURRENT_TAB_TITLE]\`.
+3. Auto-update the iframe whenever the active browser tab switches or navigates.
+4. Modify the React app's entry points to detect \`source=extension\`, add an \`.extension-mode\` class to the body, and directly open the "Add Link" modal pre-filled with the current tab's URL and title as the main sidebar view, even if the URL is already saved.
+5. In the React pre-fill hook, wrap all state updates inside a \`setTimeout(() => { ... }, 0)\` callback to prevent React setState-in-effect cascading render lint errors.
+6. Add layout-compacting CSS overrides under \`.extension-mode\` to optimize the app for a narrow 300px side panel (e.g. hiding desktop headers, custom players, and tags sidebar, and forcing the modal to fill 100% of the sidebar space).`,
+    category: 'Coding',
+    tags: ['chrome extension', 'plugin', 'side panel', 'manifest v3'],
+  },
 ];
 
 const categories = [
