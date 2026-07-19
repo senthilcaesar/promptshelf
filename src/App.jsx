@@ -444,6 +444,21 @@ Requirements:
     category: 'Coding',
     tags: ['chrome extension', 'plugin', 'side panel', 'manifest v3'],
   },
+  {
+    id: 22,
+    title: 'Document Extraction',
+    content: `Read the extraction strategies in the SKILL.md files under ~/.claude/skills/
+(docx, pdf, pptx, xlsx) and compare them with the document extractors in
+<PATH/TO/SCRIPT.py>. A/B test each recommended tool against my current code
+using hard cases (empty table cells, merged cells, document order, speaker
+notes, uncached formulas, scanned PDFs) — adopt a tool only where it clearly
+wins, keeping my extractor as a graceful fallback so a missing binary never
+breaks the pipeline. Add missing fallbacks like OCR and legacy-format
+conversion, update CI dependencies, verify both primary and fallback paths
+with content-level assertions, and report what you adopted vs kept and why.`,
+    category: 'Coding',
+    tags: ['document extraction', 'ab test', 'pdf', 'docx', 'xlsx', 'pptx'],
+  },
 ];
 
 const categories = [
