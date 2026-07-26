@@ -459,6 +459,22 @@ with content-level assertions, and report what you adopted vs kept and why.`,
     category: 'Coding',
     tags: ['document extraction', 'ab test', 'pdf', 'docx', 'xlsx', 'pptx'],
   },
+  {
+    id: 23,
+    title: 'Git Commit Message Rules',
+    content: `Write a Git commit message for my changes. Follow these exact rules:
+
+1. Keep the first line (summary) to about 50 characters.
+2. Capitalize the first letter of the summary and do not put a period at the end.
+3. Use the imperative tense (e.g., "Fix bug" instead of "Fixed bug" or "Fixes bug").
+4. If more detail is needed, leave exactly one blank line after the summary.
+5. Wrap all lines in the body text at 72 characters.
+
+Here are the changes:
+[Insert your git diff or description here]`,
+    category: 'Coding',
+    tags: ['git', 'commit', 'rules', 'version control'],
+  },
 ];
 
 const categories = [
