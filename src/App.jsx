@@ -475,6 +475,49 @@ Here are the changes:
     category: 'Coding',
     tags: ['git', 'commit', 'rules', 'version control'],
   },
+  {
+    id: 24,
+    title: 'Extract Design System',
+    content: `Analyze the entire codebase and extract its complete UI/UX design system into a reusable Markdown document named \`design.md\`.
+
+The document should serve as the single source of truth for future projects and should capture only the design language—not the business logic.
+
+Include:
+
+- Overall design philosophy and visual identity
+- Color palette (light mode and dark mode), including semantic colors
+- Sidebar design (background, active/inactive states, hover effects, borders, spacing)
+- Typography (fonts, sizes, weights, line heights)
+- Spacing and layout system (grid, margins, padding, container widths)
+- Border radius, shadows, elevation, and transparency effects
+- Icons and iconography guidelines
+- Buttons (all variants, sizes, states)
+- Forms (inputs, selects, checkboxes, switches, validation styles)
+- Tables, cards, modals, dialogs, popovers, tooltips
+- Navigation components (sidebar, top bar, breadcrumbs, tabs)
+- Notifications, alerts, badges, and status indicators
+- Loading states, skeletons, empty states, and error pages
+- Charts and data visualization styling
+- Animation and transition guidelines
+- Responsive design rules and breakpoints
+- Accessibility considerations (contrast, focus states, keyboard navigation)
+- Reusable UI patterns and component composition
+- Tailwind CSS conventions (or other styling framework), including custom theme tokens
+- CSS variables/design tokens and how they map to components
+- Common design patterns that should be preserved in future projects
+- Any reusable utility classes or helper functions related to styling
+
+For every section:
+1. Explain the design decision.
+2. Reference the relevant files/components where the implementation exists.
+3. Extract concrete values (colors, spacing, durations, radii, etc.) instead of giving generic advice.
+4. Include code snippets where helpful.
+5. Note any inconsistencies or duplicate patterns that should be standardized.
+
+Finally, produce a clean, well-structured \`design.md\` that can be copied into any new project and used as the project's design specification. The document should be implementation-oriented and detailed enough that another developer or AI agent can recreate the same visual style without referring back to the original Test-Suite codebase.`,
+    category: 'Design',
+    tags: ['design system', 'documentation', 'ui/ux', 'markdown'],
+  },
 ];
 
 const categories = [
