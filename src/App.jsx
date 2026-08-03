@@ -518,6 +518,41 @@ Finally, produce a clean, well-structured \`design.md\` that can be copied into 
     category: 'Design',
     tags: ['design system', 'documentation', 'ui/ux', 'markdown'],
   },
+  {
+    id: 25,
+    title: 'Apply Design System',
+    content: `Your task is to design the project's UI by using the \`design.md\` document as the single source of truth.
+
+Before making any changes:
+1. Read and fully understand \`design.md\`.
+2. Analyze the current codebase and identify where it deviates from the design system.
+3. Create a plan for updating the UI while preserving all existing functionality and business logic.
+
+Requirements:
+- Follow \`design.md\` exactly for colors, typography, spacing, layout, component styling, animations, and design tokens.
+- Do not introduce new design patterns unless they are required to complete the implementation or are explicitly recommended in \`design.md\`.
+- Preserve all application behavior, APIs, routing, state management, and business logic. Only the presentation layer should change.
+- Reuse existing components wherever possible. Refactor duplicated styles into reusable components or theme utilities.
+- Ensure both Light Mode and Dark Mode fully match the design specification.
+- Make the UI responsive and accessible according to the guidelines in \`design.md\`.
+- Remove inconsistent styling and replace it with the standardized design system.
+- Use existing design tokens, CSS variables, Tailwind theme values, or styling utilities defined in the project instead of hardcoding values.
+- Keep the implementation clean, maintainable, and consistent across the entire application.
+
+For each significant UI change:
+- Briefly explain what was changed.
+- Reference the relevant section of \`design.md\` that motivated the change.
+- Mention the files/components that were modified.
+
+When finished:
+1. Verify that every major page and reusable component follows \`design.md\`.
+2. List any areas that could not be updated and explain why.
+3. Provide a summary of the UI improvements and any refactoring that was performed.
+
+The objective is for the application to look and feel as though it was originally built using the design system defined in \`design.md\`, while preserving 100% of its existing functionality.`,
+    category: 'Design',
+    tags: ['design system', 'design.md', 'ui', 'refactoring'],
+  },
 ];
 
 const categories = [
