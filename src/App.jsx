@@ -553,6 +553,15 @@ The objective is for the application to look and feel as though it was originall
     category: 'Design',
     tags: ['design system', 'design.md', 'ui', 'refactoring'],
   },
+  {
+    id: 26,
+    title: 'Streaming LLM Chat App',
+    content: `Teach me how to build a production-ready streaming LLM chat application using FastAPI, Next.js, and the OpenAI API. Start from the project setup and explain every component in detail, including the overall architecture, API design, streaming responses (SSE or WebSockets), frontend integration, conversation history management, error handling, authentication, deployment, and best practices. Include complete code examples and explain the purpose of each file.
+
+Guide me step by step as if we were building the application together. After each step, explain why we are doing it before moving on. Include complete code examples, common pitfalls, debugging tips, and best practices throughout the tutorial.`,
+    category: 'Coding',
+    tags: ['fastapi', 'nextjs', 'openai', 'streaming', 'llm', 'chat'],
+  },
 ];
 
 const categories = [
