@@ -562,6 +562,30 @@ Guide me step by step as if we were building the application together. After eac
     category: 'Coding',
     tags: ['fastapi', 'nextjs', 'openai', 'streaming', 'llm', 'chat'],
   },
+  {
+    id: 27,
+    title: 'Enterprise SaaS Data Dashboard',
+    content: `Design a modern, clean, professional UI from scratch for an enterprise SaaS data dashboard. The overall design should feel cohesive, polished, minimal, and enterprise-grade, serving as a reusable foundation for future applications.
+
+**Design System & Styling**
+Create a consistent design system covering layout, typography, spacing, cards, buttons, forms, navigation, tables, data visualization, badges, and interactive states. Support both light and dark themes with responsive behavior across desktop, tablet, and mobile. Use a minimal, spacious visual hierarchy with subtle borders, shadows, and rounded components (e.g., 14px border radius for cards).
+
+**Color Palette & Typography**
+The base palette should feature a light gray background, white cards, a dark navy header, and teal UI accents. The data visualization palette must include distinct green, blue, orange, and purple hues. Use a clean, sans-serif system font. Ensure all data metrics use tabular numbers for proper vertical alignment.
+
+**Layout & Component Architecture**
+Structure the layout in a single column with a max-width container, following an "aggregate first, detail on demand" philosophy:
+1. Header: A dark top header with a logo and user avatar.
+2. Controls: A sticky filter bar with dropdown controls and active filter chips.
+3. Summary Section: A dark, aurora-gradient hero card displaying a single large metric, positioned alongside a 2x2 grid of KPI tiles featuring percentage changes and mini sparklines.
+4. Main Content: Rounded cards containing stacked column charts, ranked horizontal bar lists, and a dense heatmap with numbers in every cell.
+5. Details: A bottom section featuring a tabbed data table with search and pagination.
+
+**Interactions & Accessibility**
+Keep interactions subtle and polished, with proper hover, focus, loading, empty, and error states. Follow accessibility best practices, including keyboard navigation, sufficient contrast, and clear focus states.`,
+    category: 'Design',
+    tags: ['design', 'dashboard', 'saas', 'enterprise', 'ui'],
+  },
 ];
 
 const categories = [
