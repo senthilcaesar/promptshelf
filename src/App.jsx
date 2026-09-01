@@ -586,6 +586,30 @@ Keep interactions subtle and polished, with proper hover, focus, loading, empty,
     category: 'Design',
     tags: ['design', 'dashboard', 'saas', 'enterprise', 'ui'],
   },
+  {
+    id: 28,
+    title: 'Dashboard from a Data Source',
+    content: `Build a dashboard from <DATA SOURCE> using the dataviz skill.
+
+Load the dataviz skill first, before writing any chart code or picking any colors, and follow its form heuristic, color formula, mark specs, and interaction rules throughout.
+
+**Understand the data first**
+Inspect <DATA SOURCE> before designing anything: list the fields, their types (categorical, ordinal, temporal, quantitative), cardinality, ranges, null rates, and the grain of one row. Tell me what the data can and cannot answer, and flag any quality issues you find.
+
+**Decide what the dashboard answers**
+Propose the 3-5 questions this dashboard should answer for its audience, and the metrics that answer them. Map each question to a chart form using the dataviz form heuristic, and say why that form beats the alternatives.
+
+**Layout**
+Follow "aggregate first, detail on demand": a KPI row of stat tiles with deltas and sparklines at the top, the primary trend or comparison charts below, and a detail table last. Keep one visual system across every chart - shared palette, type scale, spacing, axis and grid treatment - so the dashboard reads as one artifact rather than a collection of plots.
+
+**Color and accessibility**
+Use the validated palette from the dataviz skill and run its palette validator rather than hand-picking hues. Verify light and dark themes both work, contrast passes, and no meaning is carried by color alone.
+
+**Deliverable**
+Produce a working dashboard, with the code and any data-loading or transformation steps included. Note every assumption you made about the data, and list what you would add next given more fields or more time.`,
+    category: 'Coding',
+    tags: ['dashboard', 'dataviz', 'charts', 'analytics', 'data'],
+  },
 ];
 
 const categories = [
