@@ -610,6 +610,13 @@ Produce a working dashboard, with the code and any data-loading or transformatio
     category: 'Coding',
     tags: ['dashboard', 'dataviz', 'charts', 'analytics', 'data'],
   },
+  {
+    id: 29,
+    title: 'Agent Investigation & Audit Trail',
+    content: `For the Agent Investigation/Logs, I want full traceability and explainability of the agent's findings/decisions. Users should be able to trace every claim, finding, recommendation, or deviation back to the supporting evidence, including source documents, retrieved chunks, knowledge graph entities, relationships, and tool calls. Additionally, provide an audit trail showing the investigation flow, retrieval steps, evidence collected, and how the agent arrived at its conclusions, allowing users to independently validate the results.`,
+    category: 'Research',
+    tags: ['agent', 'traceability', 'audit trail', 'investigation', 'explainability', 'logs'],
+  },
 ];
 
 const categories = [
