@@ -617,6 +617,25 @@ Produce a working dashboard, with the code and any data-loading or transformatio
     category: 'Research',
     tags: ['agent', 'traceability', 'audit trail', 'investigation', 'explainability', 'logs'],
   },
+  {
+    id: 30,
+    title: 'Component Architecture Diagram',
+    content: `Create a high-level, component-level architecture diagram for this application, saved as docs/component-architecture.svg and .png (2× scale), plus the source spec it is drawn from.
+
+Research first. Read the docs folder, then check the codebase to confirm it and catch anything missing — especially authentication, guardrails, observability/tracing, evaluation (per engine), memory stores, background jobs and local model servers.
+
+What to show. Components only — no classes, files or functions: frontend, API, application services, AI/agents, RAG/knowledge graph, databases/storage, LLMs and external services, auth and observability. Each box: a short bold title and a two-line subtitle (technology · port, or what it does).
+
+Layout. Numbered horizontal layer bands (1 Presentation · 2 API & cross-cutting · 3 AI agents · 4 Application services · 5 Data & memory · 6 Evaluation), titled at the top-left. Model serving and external services go in groups in a column on the right. Put each component in the layer that matches what it is. Boxes sit on a grid aligned across bands, and user → UI → API is one straight vertical line. No auto-layout (PlantUML/Graphviz/Mermaid): place every box and route every line by hand, and draw it as SVG.
+
+Links. Arrows with only horizontal or vertical segments and rounded corners. No line through a box — route through the gaps between columns and bands, and aim for zero crossings. Keep it uncluttered: a fan-out is one bus with drops; one component talking to most of a layer gets one arrow to that layer's edge; agents that share a runtime connect shared dependencies to the runtime once. Label each link with 1–3 words, beside the line, never on a box.
+
+Style. White background, soft layer bands, a pale colour per layer; data stores green (database cylinders, a folder for files); cloud services as dark rounded boxes; a small legend.
+
+Verify. Check programmatically that no line crosses a box and no label overlaps a box or another label, then look at the PNG. Re-render until it reads cleanly, and report what each layer holds and which links were combined.`,
+    category: 'Design',
+    tags: ['architecture', 'diagram', 'svg', 'system design', 'components'],
+  },
 ];
 
 const categories = [
