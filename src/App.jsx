@@ -636,6 +636,33 @@ Verify. Check programmatically that no line crosses a box and no label overlaps 
     category: 'Design',
     tags: ['architecture', 'diagram', 'svg', 'system design', 'components'],
   },
+  {
+    id: 31,
+    title: 'Application Reconstruction Specification',
+    content: `Analyze this entire application/repository as if you are reverse-engineering the instructions required to rebuild it from scratch.
+
+Read and analyze the source code, configuration files, dependency manifests, build scripts, deployment configuration, infrastructure definitions, database schemas/migrations, tests, documentation, and other relevant artifacts.
+
+Produce a comprehensive **Application Reconstruction Specification** that describes:
+
+1. **Architecture** — major components, their responsibilities, and how they interact.
+2. **Technology stack** — languages, frameworks, libraries, runtimes, and versions.
+3. **Dependencies** — internal and external dependencies and why they are required.
+4. **Data and state** — databases, schemas, files, caches, external data sources, and persistent state.
+5. **Configuration** — environment variables, configuration files, secrets, credentials, and external services required.
+6. **Build instructions** — exact steps required to install dependencies and build the application.
+7. **Runtime instructions** — exact steps required to start, configure, and operate it.
+8. **Infrastructure and deployment** — infrastructure, containers, networking, cloud resources, and deployment steps.
+9. **Behavior** — key workflows, business logic, APIs, agents, integrations, and expected behavior.
+10. **Testing and validation** — how to verify that a rebuilt version is functionally equivalent to the original.
+11. **Reconstruction gaps** — identify anything that cannot be determined from the repository and what additional information would be required.
+
+The goal is to produce a sufficiently precise, machine-executable specification that another AI agent, given this specification and the required external resources, could rebuild a functionally equivalent version of the application from scratch.
+
+Do not merely summarize the code. Infer the underlying architecture, dependencies, build process, runtime requirements, and operational knowledge necessary to reconstruct the system. Clearly distinguish facts discovered in the repository from assumptions or inferred behavior.`,
+    category: 'Coding',
+    tags: ['reverse engineering', 'specification', 'architecture', 'codebase analysis', 'reconstruction'],
+  },
 ];
 
 const categories = [
