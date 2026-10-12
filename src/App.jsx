@@ -663,6 +663,13 @@ Do not merely summarize the code. Infer the underlying architecture, dependencie
     category: 'Coding',
     tags: ['reverse engineering', 'specification', 'architecture', 'codebase analysis', 'reconstruction'],
   },
+  {
+    id: 32,
+    title: 'Tracer Bullet Development',
+    content: `Apply the **Tracer Bullet approach** to this project. Start by building a minimal, working end-to-end implementation that connects all major components and validates the core architecture. Prioritize proving the entire workflow works before expanding individual features. Identify assumptions, integration risks, and technical uncertainties early, then iteratively refine and extend the working solution.`,
+    category: 'Coding',
+    tags: ['tracer bullet', 'end-to-end', 'architecture', 'iterative development', 'risk reduction'],
+  },
 ];
 
 const categories = [
