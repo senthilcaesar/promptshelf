@@ -677,6 +677,29 @@ Do not merely summarize the code. Infer the underlying architecture, dependencie
     category: 'Coding',
     tags: ['typesafe', 'skills', 'claude code', 'plugin', 'setup'],
   },
+  {
+    id: 34,
+    title: 'Talking Presenter Video: Skills over MCP',
+    content: `The man in the blue shirt looks at the camera and speaks the following script in a natural, clear, and engaging tone, with a pause of 1–2 seconds after each sentence:
+
+"Your AI agent has access to tools, but does it know how to use them efficiently?"
+
+Pause for 1.5 seconds.
+
+"Skills over MCP lets one server deliver both the tools and the know-how."
+
+Pause for 1.5 seconds.
+
+"Want to see how it works?"
+
+Pause for 1 second.
+
+"Check out the link below."
+
+His lips move in perfect sync with the dialogue, respecting the pauses between sentences. He maintains natural facial expressions and subtle head movements during the pauses. The floating documents in his left hand gently rotate and drift, while the glowing knowledge graph in his right hand pulses with light and slowly spins. The background remains a vibrant workshop. Cinematic lighting, smooth motion, realistic gestures, and natural speech timing. Do not rush the dialogue; ensure clear sentence breaks and deliberate pauses.`,
+    category: 'Design',
+    tags: ['video generation', 'lip sync', 'voiceover', 'mcp', 'skills', 'marketing'],
+  },
 ];
 
 const categories = [
