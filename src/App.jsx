@@ -55,23 +55,17 @@ Format the output with clear section headers and bullet points where appropriate
   {
     id: 6,
     title: 'Tech Stack',
-    content: `# Feature: Project Tech Stack
-
-Add a "Tech Stack" button to the main Header/Navigation component of this project.
-
-### 1. Button & Interaction
+    content: `Add a "Tech Stack" button to the main Header/Navigation component of this project.
+1. Button & Interaction
 - Position the button next to the theme toggle or user settings.
 - Use an appropriate code icon (e.g., <Code />) and match the existing UI design.
 - On click, open a centered Modal/Dialog with a dimmed or blurred background.
 - Support light/dark themes, rounded corners, subtle shadows and a close button.
 - Support closing via the Escape key and outside click.
-
-### 2. Full-Stack Technology Discovery
-
-Inspect the entire project structure to identify the technologies actually used. Do not restrict discovery to \`package.json\`. Examine source code, dependency manifests, configuration files, infrastructure definitions and deployment pipelines.
+2. Full-Stack Technology Discovery
+Inspect the entire project structure to identify the technologies actually used. Do not restrict discovery to package.json. Examine source code, dependency manifests, configuration files, infrastructure definitions and deployment pipelines.
 
 Identify technologies across the following layers:
-
 - Frontend: Frameworks and UI libraries.
 - Styling & Animation: CSS frameworks, component libraries and animation tools.
 - Backend: Server runtimes and frameworks.
@@ -83,9 +77,7 @@ Identify technologies across the following layers:
 - Infrastructure & Deployment: Cloud providers, Docker, hosting platforms and CI/CD pipelines.
 - Monitoring & Observability: Logging, monitoring and tracing tools.
 - External Integrations: Third-party services and SDKs.
-
-### 3. Modal Content & Presentation
-
+3. Modal Content & Presentation
 - Title: Project Tech Stack
 - Introductory text: "This application is built using the following technologies and tools:"
 - Organize technologies into clearly separated sections based on their application layers.
@@ -94,9 +86,19 @@ Identify technologies across the following layers:
   - Technology name in bold.
   - Version, wherever available.
   - A concise, one-sentence description explaining its role in the application.
+4. Copy & Download Functionality
+Add two action buttons in the top-right corner of the Tech Stack modal, preferably alongside the modal title:
+- Copy: Include a copy icon and copy all discovered technology details to the clipboard in a clean, structured, readable text format. Display a confirmation when copying succeeds.
+- Download CSV: Include a download icon and allow users to download the complete tech stack details as a CSV file.
+The CSV should contain the following columns:
+- Application Layer
+- Technology Name
+- Version
+- Description
+Ensure the CSV includes all technologies displayed in the modal, uses proper CSV escaping and has an appropriate filename (e.g., project-tech-stack.csv).
 
-### 4. Implementation Guidelines
-
+Both actions must operate on the same dynamically discovered technology data displayed in the modal.
+5. Implementation Guidelines
 - Include only technologies demonstrably used or configured in the project.
 - Distinguish actively used dependencies from merely installed packages.
 - Verify deployment and infrastructure technologies through their configurations.
@@ -104,8 +106,7 @@ Identify technologies across the following layers:
 - Reuse existing UI components, icons and styling conventions.
 - Avoid unnecessary dependencies or modifications to existing functionality.
 - Ensure the modal is responsive and its content is scrollable when necessary.
-
-Expected Outcome: Provide a clean, comprehensive and accurate overview of the application's entire technology architecture, covering frontend, backend, APIs, databases, integrations, infrastructure and deployment.`,
+Expected Outcome: Provide a clean, comprehensive and accurate overview of the application's entire technology architecture, covering frontend, backend, APIs, databases, integrations, infrastructure and deployment, with convenient copy and CSV export capabilities.`,
     category: 'Design',
     tags: ['tech stack', 'dependencies', 'deployment'],
   },
