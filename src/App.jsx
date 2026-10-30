@@ -613,7 +613,13 @@ Produce a working dashboard, with the code and any data-loading or transformatio
   {
     id: 29,
     title: 'Agent Investigation & Audit Trail',
-    content: `For the Agent Investigation/Logs, I want full traceability and explainability of the agent's findings/decisions. Users should be able to trace every claim, finding, recommendation, or deviation back to the supporting evidence, including source documents, retrieved chunks, knowledge graph entities, relationships, and tool calls. Additionally, provide an audit trail showing the investigation flow, retrieval steps, evidence collected, and how the agent arrived at its conclusions, allowing users to independently validate the results.`,
+    content: `For Agent Investigation / Logs, I want comprehensive traceability and explainability of the agent's findings and decisions.
+
+Users should be able to trace every claim, finding, recommendation, or deviation back to its supporting evidence, including source documents, retrieved chunks, knowledge graph entities and relationships, and tool calls.
+
+Additionally, provide a comprehensive audit trail that captures the entire investigation workflow, including the sequence of agent activities, retrieval steps, evidence collected, tools invoked, and the rationale behind the agent's conclusions.
+
+The logs should also capture the agent's chain of thought (the text the agent produces while reasoning and deciding how to proceed), along with reasoning summaries, key observations, and the evidence used to arrive at each conclusion. This should make the investigation process transparent and enable users to independently verify and validate the results.`,
     category: 'Research',
     tags: ['agent', 'traceability', 'audit trail', 'investigation', 'explainability', 'logs'],
   },
