@@ -55,27 +55,57 @@ Format the output with clear section headers and bullet points where appropriate
   {
     id: 6,
     title: 'Tech Stack',
-    content: `Please add a 'Tech Stack' button to the main Header/Navigation component of this project.
+    content: `# Feature: Project Tech Stack
 
-Requirements:
+Add a **"Tech Stack"** button to the main Header/Navigation component of this project.
 
-Placement: Place the button in the top navigation bar, ideally next to the theme toggle or user settings. It should blend in with the existing UI aesthetics (e.g., using a ghost, text, or outline variant).
+### 1. Button & Interaction
+- Position the button next to the theme toggle or user settings.
+- Use an appropriate code icon (e.g., <Code />) and match the existing UI design.
+- On click, open a centered Modal/Dialog with a dimmed or blurred background.
+- Support light/dark themes, rounded corners, subtle shadows and a close button.
+- Support closing via the Escape key and outside click.
 
-Icon: Include a code-related icon (like <Code /> or </>) inside the button next to the 'Tech Stack' label.
+### 2. Full-Stack Technology Discovery
 
-Interactivity: When clicked, the button should open a centered Modal/Dialog component. The background behind the modal should be slightly dimmed or blurred to focus the user's attention.
+Inspect the entire project structure to identify the technologies actually used. Do not restrict discovery to \`package.json\`. Examine source code, dependency manifests, configuration files, infrastructure definitions and deployment pipelines.
 
-Modal Styling: The modal should match the application's current theme (supporting both light and dark mode automatically). It should have rounded corners, a subtle drop shadow, and a close ('X') button in the top right.
+Identify technologies across the following layers:
 
-Modal Content:
-Header: Set the title to 'Project Tech Stack'.
-Introductory Text: Add a short description at the top: 'This app is built using the following technologies:'.
-List of Technologies: Display a stacked vertical layout. Each item in the list should represent a core technology used in this project.
-List Item Layout: For each technology, display:
-An appropriate icon or logo on the left (with a subtle colored background box or tint if possible).
-The name of the technology in a bold font.
-A brief, one-sentence description of what that technology handles in the app (e.g., 'Fast, modern, component-driven UI framework').
-Implementation: Please dynamically read the project's dependency file (like package.json) to accurately list the primary frontend framework, CSS/UI library, animation library, and any hosting/deployment pipelines currently configured. Build this using the UI components and icons already available in the project.`,
+- **Frontend:** Frameworks and UI libraries.
+- **Styling & Animation:** CSS frameworks, component libraries and animation tools.
+- **Backend:** Server runtimes and frameworks.
+- **API:** REST, GraphQL, WebSockets and communication mechanisms.
+- **Database & Storage:** SQL, NoSQL, vector databases, caching and file storage.
+- **ORM & Data Access:** Database clients and ORM frameworks.
+- **Authentication & Security:** Authentication and authorization technologies.
+- **State Management:** State management and data-fetching libraries.
+- **Infrastructure & Deployment:** Cloud providers, Docker, hosting platforms and CI/CD pipelines.
+- **Monitoring & Observability:** Logging, monitoring and tracing tools.
+- **External Integrations:** Third-party services and SDKs.
+
+### 3. Modal Content & Presentation
+
+- Title: **Project Tech Stack**
+- Introductory text: "This application is built using the following technologies and tools:"
+- Organize technologies into clearly separated sections based on their application layers.
+- For each technology, display:
+  - Appropriate technology logo or icon.
+  - Technology name in bold.
+  - Version, wherever available.
+  - A concise, one-sentence description explaining its role in the application.
+
+### 4. Implementation Guidelines
+
+- Include only technologies demonstrably used or configured in the project.
+- Distinguish actively used dependencies from merely installed packages.
+- Verify deployment and infrastructure technologies through their configurations.
+- Do not invent technologies or expose credentials, API keys or secrets.
+- Reuse existing UI components, icons and styling conventions.
+- Avoid unnecessary dependencies or modifications to existing functionality.
+- Ensure the modal is responsive and its content is scrollable when necessary.
+
+**Expected Outcome:** Provide a clean, comprehensive and accurate overview of the application's entire technology architecture, covering frontend, backend, APIs, databases, integrations, infrastructure and deployment.`,
     category: 'Design',
     tags: ['tech stack', 'dependencies', 'deployment'],
   },
