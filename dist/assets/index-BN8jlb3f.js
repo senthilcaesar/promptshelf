@@ -17,7 +17,7 @@ How are mid-to-large businesses integrating AI into their workflows? Where is ad
 What skills, roles, and strategies are most valuable for software engineers and technical professionals navigating this shift? Be specific about what is declining in demand and what is rising.
 Format the output with clear section headers and bullet points where appropriate. Flag any areas where the data is uncertain or rapidly evolving.`,category:"Research",tags:["market research","ai","software development"]},{id:5,title:"Learn TypeScript",content:"Act as a senior software developer. Show me how to write a simple TypeScript program that takes a list of numbers and returns the average. Please explain each part of the code and take it step by step, as I’m a college freshman student in an introductory programming course. In addition, explicitly explain how to handle potential errors and edge cases like an empty list or the input is null.",category:"Coding",tags:["typescript","programming","beginner"]},{id:6,title:"Tech Stack",content:`# Feature: Project Tech Stack
 
-Add a **"Tech Stack"** button to the main Header/Navigation component of this project.
+Add a "Tech Stack" button to the main Header/Navigation component of this project.
 
 ### 1. Button & Interaction
 - Position the button next to the theme toggle or user settings.
@@ -32,21 +32,21 @@ Inspect the entire project structure to identify the technologies actually used.
 
 Identify technologies across the following layers:
 
-- **Frontend:** Frameworks and UI libraries.
-- **Styling & Animation:** CSS frameworks, component libraries and animation tools.
-- **Backend:** Server runtimes and frameworks.
-- **API:** REST, GraphQL, WebSockets and communication mechanisms.
-- **Database & Storage:** SQL, NoSQL, vector databases, caching and file storage.
-- **ORM & Data Access:** Database clients and ORM frameworks.
-- **Authentication & Security:** Authentication and authorization technologies.
-- **State Management:** State management and data-fetching libraries.
-- **Infrastructure & Deployment:** Cloud providers, Docker, hosting platforms and CI/CD pipelines.
-- **Monitoring & Observability:** Logging, monitoring and tracing tools.
-- **External Integrations:** Third-party services and SDKs.
+- Frontend: Frameworks and UI libraries.
+- Styling & Animation: CSS frameworks, component libraries and animation tools.
+- Backend: Server runtimes and frameworks.
+- API: REST, GraphQL, WebSockets and communication mechanisms.
+- Database & Storage: SQL, NoSQL, vector databases, caching and file storage.
+- ORM & Data Access: Database clients and ORM frameworks.
+- Authentication & Security: Authentication and authorization technologies.
+- State Management: State management and data-fetching libraries.
+- Infrastructure & Deployment: Cloud providers, Docker, hosting platforms and CI/CD pipelines.
+- Monitoring & Observability: Logging, monitoring and tracing tools.
+- External Integrations: Third-party services and SDKs.
 
 ### 3. Modal Content & Presentation
 
-- Title: **Project Tech Stack**
+- Title: Project Tech Stack
 - Introductory text: "This application is built using the following technologies and tools:"
 - Organize technologies into clearly separated sections based on their application layers.
 - For each technology, display:
@@ -65,7 +65,7 @@ Identify technologies across the following layers:
 - Avoid unnecessary dependencies or modifications to existing functionality.
 - Ensure the modal is responsive and its content is scrollable when necessary.
 
-**Expected Outcome:** Provide a clean, comprehensive and accurate overview of the application's entire technology architecture, covering frontend, backend, APIs, databases, integrations, infrastructure and deployment.`,category:"Design",tags:["tech stack","dependencies","deployment"]},{id:7,title:"AI Photography Scenarios",content:`Reference the attached picture and generate photo based on the following scenarios
+Expected Outcome: Provide a clean, comprehensive and accurate overview of the application's entire technology architecture, covering frontend, backend, APIs, databases, integrations, infrastructure and deployment.`,category:"Design",tags:["tech stack","dependencies","deployment"]},{id:7,title:"AI Photography Scenarios",content:`Reference the attached picture and generate photo based on the following scenarios
 1) Teaching in front of a whiteboard with AI diagram 
 2) Working on a laptop in a coffee shop
 3) Leading a workshop with students in the background
