@@ -737,6 +737,49 @@ His lips move in perfect sync with the dialogue, respecting the pauses between s
     category: 'Design',
     tags: ['video generation', 'lip sync', 'voiceover', 'mcp', 'skills', 'marketing'],
   },
+  {
+    id: 35,
+    title: 'Comprehensive Research Study',
+    content: `My manager has asked me to conduct a comprehensive study of OneData.ai.
+
+The resources.txt file contains links to the company's blog posts and solution pages. The PDF files in this folder contain the company's whitepapers and eBooks.
+
+Please thoroughly review and analyse all the provided materials, conduct additional research where necessary, and develop a comprehensive understanding of the company.
+
+Explore all relevant aspects of the company, including its business, products, solutions, underlying technologies, capabilities, industry applications, and overall value proposition. Focus on understanding not just what the company offers, but also how its solutions work, what problems they solve, why they matter, and how they create business value. Explore other relevant areas that emerge during the research.
+
+Use the Explainer Voice and Research Paper skills to produce a detailed, well-structured research report in PDF format.
+
+Writing and presentation guidelines
+
+Assume I am a complete beginner with no prior knowledge of the company or its domain.
+
+Explain every important technical term, concept, and industry-specific expression in simple language.
+
+Use clear, straightforward, plain English. Avoid unnecessary jargon and complex sentences.
+
+Make the report accessible to both technical and non-technical readers, including MBA graduates and board members.
+
+Use practical examples and analogies wherever they help explain complex concepts.
+
+Clearly distinguish between information stated by the company and findings from independent research.
+
+Support important findings with credible sources and references.
+
+Visual presentation
+
+Include relevant charts, diagrams, tables, and illustrations wherever they help explain important concepts, technologies, architecture, and research findings.
+
+Ensure visuals are meaningful, clearly labelled, and accompanied by explanations.
+
+Final deliverable
+
+Produce a comprehensive PDF research report covering all significant findings. Aim for 16 pages or more, if necessary, rather than sacrificing important details for brevity.
+
+Prioritise accuracy, depth, clarity, and completeness over simply meeting a page count. Ensure the report builds understanding progressively, starting with fundamental concepts before moving into more advanced technical and business topics.`,
+    category: 'Research',
+    tags: ['company research', 'research report', 'pdf', 'explainer', 'business analysis', 'whitepapers'],
+  },
 ];
 
 const categories = [
