@@ -780,6 +780,27 @@ Prioritise accuracy, depth, clarity, and completeness over simply meeting a page
     category: 'Research',
     tags: ['company research', 'research report', 'pdf', 'explainer', 'business analysis', 'whitepapers'],
   },
+  {
+    id: 36,
+    title: 'Studio Standing Pouch Product Photo',
+    content: `Create a clean studio-style product photo of a standing pouch. Use a pure white background with soft, even lighting. Place the label neatly on the pouch, making sure it looks natural and well-fitted. The pouch should stand upright, look crisp, and be the main focus of the image. Keep the shadows soft and minimal. Make the overall look bright, simple, and professional, with the product standing out clearly. Please make sure the label covers the entire standing pouch area, this is a really important step and a must requirement. Make it look immaculate`,
+    category: 'Design',
+    tags: ['product photography', 'packaging', 'studio', 'image generation', 'label mockup'],
+  },
+  {
+    id: 37,
+    title: 'Hand-Lettered Grocery Store Banner',
+    content: `Trader Joe’s–inspired in-store banner design featuring Pure Crunch Roasted Peanuts as the hero product. Hand-drawn, slightly whimsical typography with a warm, friendly feel. Bold headline: “Roasted to Perfection, Nothing Added.” Secondary callouts: “Crisp • Nutty • Satisfying.” Earthy reds, warm browns, and cream tones with subtle chalkboard textures. Illustration-forward layout mixed with realistic product photography. Casual, approachable composition with small hand-lettered accents and organic shapes. Clean but lively grocery-store aesthetic, inviting and authentic, emphasizing simple ingredients and honest roasting. Bright, even retail lighting, welcoming Trader Joe’s aisle vibe, premium yet playful`,
+    category: 'Design',
+    tags: ['retail banner', 'grocery', 'hand lettering', 'image generation', 'product marketing'],
+  },
+  {
+    id: 38,
+    title: 'Artisan Grocery Display Product Photo',
+    content: `High-quality product photo of Amudham Naturals Cane Jaggery Powder displayed in a Trader's Joe–style grocery store setup. The product packs are arranged neatly in rustic brown wooden crates on a tiered display table. Warm cozy store lighting, handwritten-style chalkboard price tags, and decorative natural props like small burlap sacks filled with raw sugarcane plant and sacks of Jaggery powder bags. A large, colorful store banner above the display reads: ‘Amudham Naturals Cane Jaggery Powder – Energizing • Mineral-Rich • Cleansing, friendly artisan market vibe, warm inviting tones, authentic Trader Joe’s aesthetic, perfect for marketing and advertising visuals`,
+    category: 'Design',
+    tags: ['product photography', 'grocery', 'retail display', 'image generation', 'product marketing'],
+  },
 ];
 
 const categories = [
