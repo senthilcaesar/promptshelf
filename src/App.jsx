@@ -801,6 +801,23 @@ Prioritise accuracy, depth, clarity, and completeness over simply meeting a page
     category: 'Design',
     tags: ['product photography', 'grocery', 'retail display', 'image generation', 'product marketing'],
   },
+  {
+    id: 39,
+    title: 'Document to Study Research Paper',
+    content: `Read <path to document> in full, including tables, comments, hidden content and
+file properties. Don't modify the original.
+
+Use /research-paper to turn it into a research paper I can study to understand the
+document. Write the prose with /explainer-voice, and check its order and clarity
+with /narrative-check before rendering.
+
+Check the claims that matter against official or public sources. Flag anything
+estimated, missing or contradictory in the document. Don't put an author's name on it.
+
+Save the PDF and its editable HTML source to <folder, e.g. ~/Desktop>.`,
+    category: 'Research',
+    tags: ['research paper', 'pdf', 'document analysis', 'fact-checking', 'explainer', 'skills'],
+  },
 ];
 
 const categories = [
