@@ -818,6 +818,21 @@ Save the PDF and its editable HTML source to <folder, e.g. ~/Desktop>.`,
     category: 'Research',
     tags: ['research paper', 'pdf', 'document analysis', 'fact-checking', 'explainer', 'skills'],
   },
+  {
+    id: 40,
+    title: 'Four UX Design Principles',
+    content: `Apply the four principles when designing the UX
+
+1) Clarity: Every element should instantly communicate its purpose. Users shouldn’t have to guess what a button does or what a field means.
+
+2) Hierarchy: Visual weight should match information priority. The most important thing should look the most important. About 1 in 5 people has a disability - visual, cognitive, or neurological.
+
+3) Accessibility: AI generates for the median user. Small text, color-only signals, and jargon quietly exclude everyone else.
+
+4) Feedback: When something breaks, users need to know what happened, what to do next, and how to get help. A raw error code answers none of those questions.`,
+    category: 'Design',
+    tags: ['ux', 'ui design', 'accessibility', 'hierarchy', 'clarity', 'feedback', 'design principles'],
+  },
 ];
 
 const categories = [
