@@ -8,7 +8,7 @@ const initialPrompts = [
     id: 1,
     title: 'Dark Mode Toggle',
     content:
-      'I have built a web app. I like the design but I think it would greatly benefit from a dark mode toggle. Can you please add one to the top right corner of the app? In the light mode I want to use the sun emoji and in the dark mode I want to use the moon emoji. The app will auto update as you make changes.',
+      'My app needs a dark mode implemented across the entire app. Can you create a toggle switch on the header that allows a user to toggle between light mode and dark mode? In the light mode I want to use the sun emoji and in the dark mode I want to use the moon emoji. I need you to find a good contrast color that works based on my existing light theme.',
     category: 'Design',
     tags: ['design', 'dark mode', 'toggle'],
   },
