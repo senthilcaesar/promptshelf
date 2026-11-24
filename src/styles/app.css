@@ -111,6 +111,9 @@ body {
 }
 
 .category-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   margin-right: var(--ps-spacing-sm);
   width: 18px;
   height: 18px;

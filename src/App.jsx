@@ -1,4 +1,5 @@
 import React, { useEffect, useMemo, useState } from 'react';
+import { Bot } from 'lucide-react';
 import MainLayout from './components/MainLayout';
 import './styles/app.css';
 
@@ -841,6 +842,13 @@ Save the PDF and its editable HTML source to <folder, e.g. ~/Desktop>.`,
     category: 'Coding',
     tags: ['webp', 'image upload', 'image conversion', 'pipeline'],
   },
+  {
+    id: 42,
+    title: 'Subagent Code Review Before Commit',
+    content: 'Before you commit, run a subagent code reviewer to look at the changes',
+    category: 'Agent',
+    tags: ['code review', 'subagent', 'git', 'commit'],
+  },
 ];
 
 const categories = [
@@ -850,6 +858,7 @@ const categories = [
   { id: 'design', name: 'Design', icon: '🎨' },
   { id: 'career', name: 'Career', icon: '💼' },
   { id: 'personal', name: 'Personal', icon: '👤' },
+  { id: 'agent', name: 'Agent', icon: <Bot size={18} strokeWidth={1.75} /> },
 ];
 
 function App() {
