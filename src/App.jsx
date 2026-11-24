@@ -833,6 +833,14 @@ Save the PDF and its editable HTML source to <folder, e.g. ~/Desktop>.`,
     category: 'Design',
     tags: ['ux', 'ui design', 'accessibility', 'hierarchy', 'clarity', 'feedback', 'design principles'],
   },
+  {
+    id: 41,
+    title: 'WebP Image Upload Conversion',
+    content:
+      'I need to add WebP conversion to our image upload pipeline. Figure out where in the pipeline it should happen, whether we need new dependencies, and how to approach it.',
+    category: 'Coding',
+    tags: ['webp', 'image upload', 'image conversion', 'pipeline'],
+  },
 ];
 
 const categories = [
